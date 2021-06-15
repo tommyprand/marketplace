@@ -1,0 +1,11 @@
+{
+    "dockerComposeFile": "docker-compose.yml",
+    "runServices": ["app", "db"],
+    "service": "app",
+    "workspaceFolder": "/app",
+    "args": {
+        "VARIANT": "1",
+        "INSTALL_NODE": "true",
+        "NODE_VERSION": "10"
+    }
+}
